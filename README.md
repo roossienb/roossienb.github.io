@@ -8,9 +8,36 @@
 
 Reverie is a [Jekyll](https://jekyllrb.com/)-powered theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for my blog.
 
+This is a fork of Reverie focused on removing what I personally consider to be garbage.
+
 > [Demo in GitHub Pages](https://confor.github.io/reverie-light/)
 
 This is a plug-and-play Jekyll theme best suited to use on [GitHub Pages](https://pages.github.com) (or [Cloudflare Pages](https://pages.cloudflare.com/) if you want to have your repository private) without even setting up a local environment.
+
+## About this fork
+I removed ads, disqus comments, social media icons and google analytics.
+
+## Why
+Reverie introduces some good ideas (pagination, sitemaps, rss feeds, categories, meta tags) but I don't like all of that ads/google stuff. This fork removes all of it.
+
+This fork also removes a *lot* of css. The ![original style.css](https://reverie.pages.dev/assets/style.css) is 27.3 KB uncompressed
+
+**According to some GTmetrix page speed report**, total page size goes down from 833 kb to 21.5 kb. This fork is quite a bit faster:
+
+|  Original | This fork |
+|-----------|-----------|
+|![Original](/images/gtmetrix-original.png) | ![Fork](/images/gtmetrix-light.png) |
+
+Heres another speed test report from Pingdom tools (analysis from the `/about` page):
+
+|  Original | This fork |
+|-----------|-----------|
+|![Original](/images/pingdom-original.png) | ![Fork](/images/pingdom-light.png) |
+| [Link](https://tools.pingdom.com/#5f455be114400000) | [Link](https://tools.pingdom.com/#5f455bf49bc00000) |
+
+Are these kind of reports useful or just placebo? Who knows, but I love seeing a 90% reduction in filesize.
+
+## Images
 
 ![](/images/reverie-demo.png)
 
@@ -20,10 +47,8 @@ This is a plug-and-play Jekyll theme best suited to use on [GitHub Pages](https:
 
 # Table of Contents
   - [Features overview](#features-overview)
+  - [Removed features](#removed-features)
   - [Using Reverie on GitHub Pages](#using-reverie-on-github-pages)
-    - [1. Fork Reverie to your User Repository](#1-fork-reverie-to-your-user-repository)
-    - [2. Customize and view your site](#2-customize-and-view-your-site)
-    - [3. Publish your first blog post](#3-publish-your-first-blog-post)
   - [Using Categories in Reverie](#using-categories-in-reverie)
   - [Pagination](#pagination)
   - [RSS](#rss)
@@ -57,6 +82,8 @@ This is a plug-and-play Jekyll theme best suited to use on [GitHub Pages](https:
 - Social media icons
 - Google Analytics integration
 - [Google Analytics 4](https://support.google.com/analytics/answer/10089681?hl=en)
+- Google Fonts
+- Built in fonts
 
 ## Using Reverie on GitHub Pages
 
@@ -121,7 +148,7 @@ Reverie is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if
 
 ## The name?
 
-reverie - _a state of being pleasantly lost in one's thoughts; a daydream._<br><sup>/ˈrɛv(ə)ri/</sup> 
+reverie - _a state of being pleasantly lost in one's thoughts; a daydream._<br><sup>/ˈrɛv(ə)ri/</sup>
 
 
 ## License
