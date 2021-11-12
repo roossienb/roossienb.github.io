@@ -379,20 +379,6 @@ nav {
     background-color: #ede1ff;
   }
 
-  .you-may-like{
-    margin: 1.8em .8em;
-    /*border-left: 2px solid $gray;*/
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-    background-color: #ddffb5;;
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
@@ -523,11 +509,6 @@ Modules - reusable parts of our design
     background-color: #efd3f9 !important;
 }
 
-#gh-latest{
-    font-size: 16px;
-    text-align: center;
-}
-
 .text-link {
     color: #000;
     text-decoration: none;
@@ -566,63 +547,6 @@ Modules - reusable parts of our design
 
 .pagination {
   text-align: center;
-}
-
-.tlemail {
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-.subscribeBtn {
-  width: 30%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 11pt;
-}
-
-.tinyletterForm {
-  border: 1px solid #ccc;
-  padding: 3px;
-  text-align: center;
-  background: #ececec;
-  margin: 8px;
-  border-radius: 5px;
-}
-
-.btn-subscribe {
-  line-height: 20px;
-  text-decoration: none;
-  background: #00000015;
-  border: none;
-  font-size: 12px;
-  padding: 0px 7px;
-  display: inline-block;
-  border-radius: 4px;
-  position: relative;
-  top: -1px;
-  margin-left: 5px;
-  color: black;
-}
-
-.btn-subscribe:hover {
-  color: black;
-}
-
-.btn-subscribe > svg {
-  width: 21px;
-  height: 21px;
-  vertical-align: bottom;
-  margin: 0 -2px 0 -5px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
