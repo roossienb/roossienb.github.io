@@ -18,28 +18,6 @@ avatar: /images/reverie.png
 # Flags below are optional
 #
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: amit.d.merchant@gmail.com
-  facebook:
-  flickr:
-  github: amitmerchant1990/reverie
-  instagram:
-  linkedin:
-  pinterest:
-  rss: rss
-  twitter: amit_merchant
-  stackoverflow:
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-  playconsole:
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
 url: http://www.amitmerchant.com/reverie
