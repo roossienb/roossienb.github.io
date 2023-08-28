@@ -1,4 +1,8 @@
-# How Meta and a Small Municipality Made a Dutch Clean Energy Supply Harder to Reach
+---
+layout: post
+title: How Meta and a Small Municipality Made a Dutch Clean Energy Supply Harder to Reach
+categories: Datacenters, Energy, Netherlands
+---
 
 Yesterday evening, the Council of Zeewolde, a municipality of 22,000 people, voted in favour of building the largest data centre The Netherlands has ever seen. A controversial vote that had proponents and opponents having heated discussions in the past few months.
 
