@@ -24,14 +24,14 @@ body {
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.1rem;
   height: 100%;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 42em;
+  padding: 0 0.6em;
   width: 100%;
 }
 
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 1em 0 1em;
   padding: 0;
   text-align: center;
 
@@ -51,17 +51,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 1.6em;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.4em;
 }
 
-@media (min-width: 769px){
+@media (min-width: 48rem){
 	.post h2::before, .post h2::after {
 	    content: "";
 	    display: inline-block;
